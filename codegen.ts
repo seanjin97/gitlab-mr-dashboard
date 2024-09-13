@@ -1,7 +1,7 @@
 import type { CodegenConfig } from '@graphql-codegen/cli';
 
 const config: CodegenConfig = {
-  schema: 'https://sgts.gitlab-dedicated.com/api/graphql',
+  schema: 'https://gitlab.com/api/graphql',
   documents: ['src/**/*.tsx'],
   ignoreNoDocuments: true,
   generates: {
